@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9590" started-at="2019-04-04T21:35:23Z" finished-at="2019-04-04T21:35:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9590" started-at="2019-04-04T21:35:23Z" finished-at="2019-04-04T21:35:33Z">
+      <class name="com.selenium.Moviesync.Title">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:com.selenium.Moviesync.Title@475530b9]" name="Launch" is-config="true" duration-ms="7285" started-at="2019-04-04T21:35:23Z" finished-at="2019-04-04T21:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.selenium.Moviesync.Title@475530b9]" name="report" is-config="true" duration-ms="403" started-at="2019-04-04T21:35:30Z" finished-at="2019-04-04T21:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.Moviesync.Title@475530b9]" name="testdata" duration-ms="1014" started-at="2019-04-04T21:35:31Z" data-provider="DATAA" finished-at="2019-04-04T21:35:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[115234447]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Love@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdata -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.selenium.Moviesync.Title@475530b9]" name="stop" is-config="true" duration-ms="854" started-at="2019-04-04T21:35:32Z" finished-at="2019-04-04T21:35:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.selenium.Moviesync.Title -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

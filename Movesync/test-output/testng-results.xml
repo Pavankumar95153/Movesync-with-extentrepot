@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9590" started-at="2019-04-04T21:35:23Z" finished-at="2019-04-04T21:35:33Z">
+  <suite name="Default suite" duration-ms="27262" started-at="2019-04-06T00:08:40Z" finished-at="2019-04-06T00:09:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9590" started-at="2019-04-04T21:35:23Z" finished-at="2019-04-04T21:35:33Z">
-      <class name="com.selenium.Moviesync.Title">
-        <test-method status="PASS" signature="Launch()[pri:0, instance:com.selenium.Moviesync.Title@475530b9]" name="Launch" is-config="true" duration-ms="7285" started-at="2019-04-04T21:35:23Z" finished-at="2019-04-04T21:35:30Z">
+    <test name="Default test" duration-ms="27262" started-at="2019-04-06T00:08:40Z" finished-at="2019-04-06T00:09:08Z">
+      <class name="com.scroll.Scroll2">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:com.scroll.Scroll2@4c70fda8]" name="Launch" is-config="true" duration-ms="6138" started-at="2019-04-06T00:08:40Z" finished-at="2019-04-06T00:08:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launch -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.selenium.Moviesync.Title@475530b9]" name="report" is-config="true" duration-ms="403" started-at="2019-04-04T21:35:30Z" finished-at="2019-04-04T21:35:31Z">
+        <test-method status="PASS" signature="report()[pri:0, instance:com.scroll.Scroll2@4c70fda8]" name="report" is-config="true" duration-ms="403" started-at="2019-04-06T00:08:47Z" depends-on-methods="com.scroll.Title.Launch" finished-at="2019-04-06T00:08:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.Moviesync.Title@475530b9]" name="testdata" duration-ms="1014" started-at="2019-04-04T21:35:31Z" data-provider="DATAA" finished-at="2019-04-04T21:35:32Z">
+        <test-method status="PASS" signature="scroll()[pri:0, instance:com.scroll.Scroll2@4c70fda8]" name="scroll" duration-ms="18554" started-at="2019-04-06T00:08:47Z" finished-at="2019-04-06T00:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scroll -->
+        <test-method status="PASS" signature="testdata(java.lang.String, java.lang.String)[pri:0, instance:com.scroll.Scroll2@4c70fda8]" name="testdata" duration-ms="1145" started-at="2019-04-06T00:09:05Z" data-provider="DATAA" finished-at="2019-04-06T00:09:07Z">
           <params>
             <param index="0">
               <value>
@@ -31,11 +35,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testdata -->
-        <test-method status="PASS" signature="stop()[pri:0, instance:com.selenium.Moviesync.Title@475530b9]" name="stop" is-config="true" duration-ms="854" started-at="2019-04-04T21:35:32Z" finished-at="2019-04-04T21:35:33Z">
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.scroll.Scroll2@4c70fda8]" name="stop" is-config="true" duration-ms="1007" started-at="2019-04-06T00:09:07Z" finished-at="2019-04-06T00:09:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->
-      </class> <!-- com.selenium.Moviesync.Title -->
+      </class> <!-- com.scroll.Scroll2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

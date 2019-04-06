@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.Moviesync.Title">
+      <class name="com.scroll.Scroll">
         <methods>
-          <include name="testdata" invocation-numbers="0"/>
-          <include name="stop"/>
-          <include name="report"/>
-          <include name="Launch"/>
+          <include name="scroll"/>
         </methods>
-      </class> <!-- com.selenium.Moviesync.Title -->
+      </class> <!-- com.scroll.Scroll -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
